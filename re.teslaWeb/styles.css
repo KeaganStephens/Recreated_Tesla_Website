@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    /* border: solid; */
+    margin: 0;
+    color: rgb(46, 44, 44);
+    font-family: Verdana, sans-serif;
+}
+
+img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+#navFlex{
+ visibility: hidden;
+ position: fixed;
+ top: 0;
+ display: flex;
+ background-color: brown;
+ flex-direction: row;
+ z-index: 999;
+ 
+}
+
+.blur{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(5px);
+    height: 100vh;
+    width: 70vw;
+}
+
+#mainNav{
+ position: absolute;
+ margin-left: 70vw;
+ top: 0;
+ visibility: hidden;
+ height: 100vh;
+ background-color: rgb(229, 229, 229);
+ width: 30vw;
+ /* opacity: 0; */
+ overflow: scroll;
+
+}
+
+#subNav{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#dropdownX{
+ padding: 5%;
+}
+
+.p{
+    width: 10%;
+    height: 10%;
+    text-align: center;
+    margin: 1%;
+    margin-left: 85%;
+    border-radius: 10%;
+}
+
+.p:hover{
+ color: whitesmoke;
+ background-color:rgb(46, 44, 44);
+}
+
+.navDiv{
+ margin: 2%;
+ margin-left: 5vw;
+ border-radius: 10%;
+ width: 60%;
+ height: 100%;
+}
+
+.navDiv:hover{
+   background-color: rgba(47, 49, 47, 0.147);
+   }
+
+.mainHeader{
+ position: fixed;
+ display: flex;
+ width: 100vw;
+ margin: 2vh 2vw 2vh 2vw;
+}
+
+#teslaName{
+ position: absolute;
+ left: 3vw;
+}
+.mainText{
+    font-size: 20px ;
+}
+
+.mainText2{
+ font-size: 14px;
+}
+
+#teslaMenu{
+    position: absolute;
+    right: 4vw;
+    background-color: rgba(47, 49, 47, 0.147);
+    padding: 1vh 1.8vw 1vh 1.8vw;
+    border-radius: 13%;
+}
+
+#teslaMenu:hover{
+    background-color: rgba(47, 49, 47, 0.303);
+}
+
+main{
+ position: fixed;
+ top: 15vh;
+ left: 50%;
+ margin-left: -7.5vh;
+}
+
+.mainDiv{
+    position: absolute;
+    top: 62vh;
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    margin-left: -26vw;
+
+}
+
+.mainDivdiv{
+width: 25vw;
+border: solid;
+border-radius: .5vw;
+background-color: rgb(46, 44, 44);
+margin: 2vw;
+}
+
+.DivP{
+    white-space: nowrap;
+    padding: 0.5vw;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+.TeslaImg{
+ width: 100vw;
+ height: 100vh;
+ object-fit: scale-down;
+}
+
+@keyframes fadein {
+    0%   {opacity: 0%;}
+    25%  {opacity: 25% ;}
+    50%  {opacity: 50% ;}
+    75%  {opacity: 75% ;}
+    100% {opacity: 100% ;}
+  }
+
+  @keyframes fadeout{
+    0%   {opacity: 100%;}
+    25%  {opacity: 75% ;}
+    50%  {opacity: 50% ;}
+    75%  {opacity: 25% ;}
+    100% {opacity: 0% ;}
+  }
+
+#TeslaImg7{
+    /* background-image: url(/teslaImages/IMG_0303.JPG); */
+    object-fit: scale-down;
+    background-color: whitesmoke;
+}
+
+
+#TeslaImg6{
+    /* background-image: url(/teslaImages/IMG_0303.JPG); */
+    background-color: black;
+}
+
+ #TeslaImg5{
+    /* background-image: url(/teslaImages/IMG_0303.JPG); */
+    background-color: whitesmoke;
+}
+
+#TeslaImg4{
+    background-color: black;
+    /* background-image: url(/teslaImages/IMG_0303.JPG); */
+}
+
+#TeslaImg3{
+    /* background-image: url(/teslaImages/IMG_0303.JPG); */
+    background-color: whitesmoke;
+}
+
+#TeslaImg2{
+    /* background-image: url(/teslaImages/IMG_0303.JPG); */
+    background-color: black;
+}
+
+#TeslaImg1{
+    /* background-image: url(/teslaImages/IMG_0303.JPG); */
+    background-color: whitesmoke;
+    
+}
